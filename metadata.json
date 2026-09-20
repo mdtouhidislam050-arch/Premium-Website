@@ -1,0 +1,6 @@
+{
+  "name": "HushAPK",
+  "description": "A modern browser-based website to discover, publish, and manage apps with instant external launch links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
