@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HushAPK - Redirecting</title>
+    <script>
+      // Single Page Apps for GitHub Pages redirection script
+      // Redirects 404s back to index.html preserving search and hash
+      sessionStorage.redirect = location.href;
+      var pathSegments = location.pathname.split('/');
+      // If deployed in a subdirectory like /<repo-name>/, redirect to /<repo-name>/
+      var repoBase = pathSegments.length > 1 && pathSegments[1] ? '/' + pathSegments[1] + '/' : '/';
+      location.replace(repoBase);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
